@@ -1,4 +1,31 @@
-hello
- status
- uchitel cool
+# show the status of the git branch
+git status
+
+# file staging for changes
+git add .     # all files
+git add [FILE_NAME] # add current file
+
+# commit changes ( save changes to current branch )
+git commit -m "[MESSAGE]"
+
+# show local branches
+git branch
+
+# create and switch to new branch
+git checkout -b [BRANCH_NAME]
+
+# switch to existing branch
+git checkout [BRANCH_NAME]
+
+# for merging [BRANCH_1] to [BRANCH_2]
+# switch to [BRANCH_2]
+git checkout [BRANCH_2]
+git merge [BRANCH_1]
+
+# how to delete branch
+git branch -d [BRANCH]
+# how to force delete branch
+git branch -D [BRANCH]
+
+
  
