@@ -1,2 +1,4 @@
 hello
-uchenik
+ status
+ uchitel cool
+ 
