@@ -27,5 +27,6 @@ git branch -d [BRANCH]
 # how to force delete branch
 git branch -D [BRANCH]
 
-
+# how to push to server
+git push origin [BRANCH_NAME]
  
